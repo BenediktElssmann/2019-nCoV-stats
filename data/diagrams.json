@@ -1,0 +1,46 @@
+[
+  {
+    "x_axis": "date",
+    "y_axis": "infections",
+    "x_description": "date",
+    "y_description": "number of infections",
+    "title": "Infections"
+  },
+  {
+    "x_axis": "date",
+    "y_axis": "deaths",
+    "x_description": "date",
+    "y_description": "number of deaths",
+    "title": "Deaths"
+  },
+  {
+    "x_axis": "date",
+    "y_axis": "infection-factors",
+    "x_description": "date",
+    "y_description": "factor compared to the previous date",
+    "title": "Infection-factors",
+    "per_cent": true
+  },
+  {
+    "x_axis": "date",
+    "y_axis": "death-factors",
+    "x_description": "date",
+    "y_description": "factor compared to the previous date",
+    "title": "Death-factors",
+    "per_cent": true
+  },
+  {
+    "x_axis": "date",
+    "y_axis": "infection-derivation",
+    "x_description": "date",
+    "y_description": "derivations of infections",
+    "title": "Infection-derivation"
+  },
+  {
+    "x_axis": "date",
+    "y_axis": "death-derivation",
+    "x_description": "date",
+    "y_description": "derivations of deaths",
+    "title": "Death-derivation"
+  }
+]
