@@ -77,9 +77,9 @@ class Analyse(object):
             return self._infections
         if name == "deaths":
             return self._deaths
-        if name == "infection-factors":
+        if name == "infection-increase":
             return self._infection_factors
-        if name == "death-factors":
+        if name == "death-increase":
             return self._death_factors
         if name == "infection-derivation":
             return self._infection_derivation
@@ -109,7 +109,7 @@ class Analyse(object):
             ax.axhline(optimum, ls=':', color='r')
         plt.tight_layout()
 
-        fig.savefig('/home/benedikt/PROJECTS/2019-nCoV-stats/analysis/' + title + '.pdf')
+        fig.savefig('/home/benedikt/PROJECTS/2019-nCoV-stats/analysis/' + title.replace(' ', '-') + '.pdf')
 
         del fig, ax
 

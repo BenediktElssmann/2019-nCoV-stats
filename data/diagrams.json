@@ -15,18 +15,18 @@
   },
   {
     "x_axis": "date",
-    "y_axis": "infection-factors",
+    "y_axis": "infection-increase",
     "x_description": "date",
-    "y_description": "factor compared to the previous date",
-    "title": "Infection-factors",
+    "y_description": "increase compared to the previous date",
+    "title": "Increase of infections",
     "per_cent": true
   },
   {
     "x_axis": "date",
-    "y_axis": "death-factors",
+    "y_axis": "death-increase",
     "x_description": "date",
-    "y_description": "factor compared to the previous date",
-    "title": "Death-factors",
+    "y_description": "increase compared to the previous date",
+    "title": "Increase of deaths",
     "per_cent": true
   },
   {
