@@ -97,7 +97,7 @@ class Analyse(object):
 
         plt.style.use('ggplot')
 
-        fig, ax = plt.subplots(figsize=(6, 4))
+        fig, ax = plt.subplots(figsize=(8, 5))
         plt.stem(x, y, use_line_collection=True)
 
         labels = ax.get_xticklabels()
