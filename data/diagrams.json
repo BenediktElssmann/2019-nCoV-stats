@@ -33,14 +33,14 @@
     "x_axis": "date",
     "y_axis": "infection-derivation",
     "x_description": "date",
-    "y_description": "derivations of infections",
+    "y_description": "derivation of infections",
     "title": "Infection-derivation"
   },
   {
     "x_axis": "date",
     "y_axis": "death-derivation",
     "x_description": "date",
-    "y_description": "derivations of deaths",
+    "y_description": "derivation of deaths",
     "title": "Death-derivation"
   }
 ]
